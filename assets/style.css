@@ -1,0 +1,72 @@
+
+header {
+    border: 4px solid chocolate;
+}
+
+header div {
+    border: 1px solid rgb(188, 198, 0)
+}
+
+main {
+    border: 4px solid rgb(33, 81, 182)
+}
+
+main section {
+    border: 2px solid rgb(54, 175, 171)
+}
+
+footer {
+    border: 4px solid rgb(21, 138, 87)
+}
+
+footer div {
+    border: 2px solid rgb(10, 85, 182)
+}
+
+header  {
+    height: 150px;
+    margin-right: 300px;
+    background: orange;
+}
+
+.flex-container {
+    display: flex;
+justify-content: space-around;
+flex-direction: column;
+width: 100%;
+height: 100vh;
+justify-content: space-around; (not work)
+}
+
+.flex-container-main {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background: gray;
+overflow: hidden;
+flex-grow: 10;
+
+}
+
+.flex-container div {
+background-color: rgb(114, 77, 29);
+
+}
+
+.flex-container-foot {
+    align-self: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20vw;
+    flex-direction: row;
+}
+
+
+main section {
+    width: 50vw;
+}
+
+.flex-container-main-left {
+
+    
+}
