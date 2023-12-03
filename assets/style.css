@@ -29,15 +29,6 @@ header  {
     background: orange;
 }
 
-.flex-container {
-    display: flex;
-justify-content: space-around;
-flex-direction: column;
-width: 100%;
-height: 100vh;
-justify-content: space-around; (not work)
-}
-
 .flex-container-main {
 display: flex;
 flex-direction: row;
